@@ -8,5 +8,8 @@ RECOMMENDED USAGE:
         a tabular representation of the data.
 
 DEMONSTRATION:
-The provided code snippets, all functions prefixed with “text_”, test and demonstrate all major functionality in this module. They can be run at the console as follows:
-$ python post_query.py
+The provided code snippets, all functions prefixed with “test_”, test and demonstrate all major functionality in this module. They can be run at the console as follows:
+$ python post_query.py [all | test_joins test_value ...]
+
+You can also list available tests as follows:
+ $ python post_query.py test
